@@ -43,7 +43,6 @@ MarkupSafe==1.1.1
 mccabe==0.6.1
 mysql-client==0.0.1
 numpy==1.18.5
-opencv-contrib-python==4.2.0.34
 opencv-python==4.2.0.34
 paramiko==2.7.2
 parso==0.7.0
