@@ -1,0 +1,1 @@
+web: gunicorn WEBCV.wsgi --log-file -
