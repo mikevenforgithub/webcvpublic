@@ -25,7 +25,7 @@ SECRET_KEY = '9q9c6cp!ez0s9n9(x#du8f^m8(_n-xy1b27tz169n2)_h3b01d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1:8000', 'sampledomain.com']
+ALLOWED_HOSTS = ['127.0.0.1:8000', 'mv-webcv.herokuapp.com']
 
 
 # Application definition
