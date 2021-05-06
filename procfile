@@ -1,2 +1,2 @@
-web gunicorn WEBCV.wsgi --log-file -
-ps:scale web=1
+heroku ps:scale web=1
+web: gunicorn WEBCV.wsgi --log-file -
