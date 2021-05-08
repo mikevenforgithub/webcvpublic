@@ -391,6 +391,7 @@ margin-left: 50px;
     width: 1000px;
     transform: rotate(90deg);
     left: 1600px;
+    opacity:0;
   }
   #chevron:before {
     content: '';
@@ -421,10 +422,12 @@ margin-left: 50px;
   @keyframes runs{
      
     0%{
+        opacity:1;
         left: 1500px;
     }
 
     100%{
+        opacity:1;
         left: -720px;
     }
 
