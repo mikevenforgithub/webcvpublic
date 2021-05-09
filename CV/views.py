@@ -13,6 +13,9 @@ def index(request):
     css = Pictures.objects.filter(name="css").first()
     django = Pictures.objects.filter(name="django").first()
     mysql = Pictures.objects.filter(name="mysql").first()
+    heroku = Pictures.objects.filter(name="heroku").first()
+    bootstrap = Pictures.objects.filter(name="bootstrap").first()
+    chartjs = Pictures.objects.filter(name="chartsjs").first()
 
     my_cv = MyCV.objects.filter(title='mycv').first()
 
@@ -23,6 +26,9 @@ def index(request):
         "django": django,
         "css": css,
         "mysql":mysql,
+        "bootstrap":bootstrap,
+        "heroku":heroku,
+        "chartjs":chartjs,
         "mycv": my_cv
     })
 

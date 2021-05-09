@@ -133,6 +133,8 @@ PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 #STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
 
+
+
 #S3 BUCKETS CONFIG
 
 AWS_ACCESS_KEY_ID = 'AKIAWEGDNECSJFYFIVTH'
@@ -145,7 +147,7 @@ AWS_DEFAULT_ACL = 'public-read'
 
 AWS_LOCATION = 'static'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,'CV/static/images'),
+    os.path.join(BASE_DIR,'static'),
 ]
 
 STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
