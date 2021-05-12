@@ -139,7 +139,7 @@ PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 AWS_ACCESS_KEY_ID = 'AKIAWEGDNECSJFYFIVTH'
 AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'my-webcv-mv-bucket'
+AWS_STORAGE_BUCKET_NAME = 'my-webcv-final-mv'
 AWS_S3_FILE_OVERWRITE = False
 AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
 AWS_S3_OBJECT_PARAMETERS = {'CacheControl' : 'max-age=86400'}
