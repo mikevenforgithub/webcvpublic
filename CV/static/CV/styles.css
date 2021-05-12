@@ -495,6 +495,7 @@ height: 100%;
 width: 100%;
 font-family: Gill Sans, sans-serif;
 
+
 }
 
 .projtitle{
@@ -505,19 +506,25 @@ font-family: Gill Sans, sans-serif;
     color: rgb(162, 10, 10);
     font-family: garamond;
     font-family: Gill Sans, sans-serif;
+    
 }
 
 .proj{
-    margin: 0 auto;
-    height:250px;
-    width:350px;
-    background-color: yellow;
+    margin: 0px;
+    height:225px;
+    width:415px;
     border-color: black;
+    background-color: black;
     border-width: 2px;
     border-style: double;
-    border-radius: 25% 25% 25% 25%;
-    
+    background-size: cover;
+    overflow: hidden;
+    z-index: -100;
+    right: 0; 
+    bottom: 0;
+     
 }
+
 
 .proj:hover{
     box-shadow: 2px 2px 2px rgb(255, 255, 255);

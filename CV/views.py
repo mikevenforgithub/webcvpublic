@@ -16,6 +16,10 @@ def index(request):
     heroku = Pictures.objects.filter(name="heroku").first()
     bootstrap = Pictures.objects.filter(name="bootstrap").first()
     chartjs = Pictures.objects.filter(name="chartsjs").first()
+    vmailvideo = SiteVideo.objects.filter(title="vmailvideo").first()
+    bestbidhousevideo = SiteVideo.objects.filter(title="bestbidhousevideo").first()
+    chattervideo = SiteVideo.objects.filter(title="chattervideo").first()
+    fp1video = SiteVideo.objects.filter(title="fp1video").first()
 
     my_cv = MyCV.objects.filter(title='mycv').first()
 
@@ -29,7 +33,12 @@ def index(request):
         "bootstrap":bootstrap,
         "heroku":heroku,
         "chartjs":chartjs,
-        "mycv": my_cv
+        "mycv": my_cv,
+        "vmailvideo" : vmailvideo,
+        "fp1video": fp1video,
+        "chattervideo": chattervideo,
+        "bestbidhousevideo": bestbidhousevideo
+
     })
 
 def download(request, id):

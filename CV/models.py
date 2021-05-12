@@ -21,3 +21,13 @@ class MyCV(models.Model):
            return {
                 "title":self.title
             }
+
+class SiteVideo(models.Model):
+       
+       title = models.CharField(max_length=30)
+       video = models.FileField()
+
+       def serialize(self):
+           return {
+                "title":self.title
+            }
