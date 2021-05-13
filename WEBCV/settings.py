@@ -20,12 +20,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '9q9c6cp!ez0s9n9(x#du8f^m8(_n-xy1b27tz169n2)_h3b01d'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'mv-webcv.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -122,17 +122,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-#STATIC_URL = '/static/'
-
-#MEDIA_URL = '/images/'
-
-#MEDIA_ROOT = os.path.join(BASE_DIR, 'CV/static/images')
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-
-#STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
-
-
 
 
 #S3 BUCKETS CONFIG
